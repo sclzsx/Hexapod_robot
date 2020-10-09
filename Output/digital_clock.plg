@@ -1,0 +1,243 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+E:\课外兴趣\机器人设计\机器人设计\六足机器人\第二版\程序设计\USER\hexapod_robot.uvproj
+Project File Date:  02/14/2014
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+compiling usart1.c...
+compiling oled.c...
+oled.c(23): warning:  #188-D: enumerated type mixed with another type
+compiling SysTick.c...
+compiling stm32f10x_it.c...
+compiling timer_count.c...
+assembling startup_stm32f10x_hd.s...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_usart.c...
+compiling misc.c...
+compiling stm32f10x_tim.c...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+linking...
+Program Size: Code=9684 RO-data=2996 RW-data=56 ZI-data=2048  
+FromELF: creating hex file...
+"..\Output\digital_clock.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+main.c(3): error:  #5: cannot open source input file "oled.h": No such file or directory
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=8244 RO-data=336 RW-data=56 ZI-data=1024  
+FromELF: creating hex file...
+"..\Output\digital_clock.axf" - 0 Error(s), 0 Warning(s).
+Load "..\\Output\\digital_clock.AXF" 
+
+JLink info:
+-----------
+DLL: V4.11i, compiled Jan 28 2010 19:55:25
+Firmware: J-Link ARM V8 compiled Jul 17 2013 11:24:15
+Hardware: V8.00
+S/N : 20100213 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+---
+* JLink Info: TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+**JLink Warning: No matching core found. Selecting default core (ARM7).
+* JLink Info: TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+***JLink Error: Could not find supported CPU core on JTAG chain
+Build target 'Target 1'
+linking...
+Program Size: Code=8244 RO-data=336 RW-data=56 ZI-data=1024  
+FromELF: creating hex file...
+"..\Output\hexapod_robot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=8244 RO-data=336 RW-data=56 ZI-data=1024  
+FromELF: creating hex file...
+"..\Output\hexapod_robot.axf" - 0 Error(s), 0 Warning(s).
+Load "..\\Output\\hexapod_robot.AXF" 
+
+JLink info:
+-----------
+DLL: V4.11i, compiled Jan 28 2010 19:55:25
+Firmware: J-Link ARM V8 compiled Jul 17 2013 11:24:15
+Hardware: V8.00
+S/N : 20100213 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+---
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+
+Target info:
+------------
+Device: STM32F103RE
+VTarget = 3.287V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 2000 kHz
+---
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+main.c(19): warning:  #223-D: function "Timer_ON" declared implicitly
+compiling stm32f10x_it.c...
+stm32f10x_it.c(146): warning:  #223-D: function "Timer_OFF" declared implicitly
+compiling timer_count.c...
+linking...
+Program Size: Code=8160 RO-data=336 RW-data=48 ZI-data=1024  
+FromELF: creating hex file...
+"..\Output\hexapod_robot.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling timer_count.c...
+linking...
+Program Size: Code=8160 RO-data=336 RW-data=48 ZI-data=1024  
+FromELF: creating hex file...
+"..\Output\hexapod_robot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+usart1.h(8): error:  #130: expected a "{"
+main.c(13): warning:  #12-D: parsing restarts here after previous syntax error
+main.c(14): warning:  #223-D: function "Timer_Init" declared implicitly
+main.c(15): warning:  #223-D: function "SysTick_Init" declared implicitly
+main.c(16): warning:  #223-D: function "USART1_Config" declared implicitly
+main.c(21): warning:  #223-D: function "Timer_ON" declared implicitly
+compiling usart1.c...
+usart1.h(8): error:  #130: expected a "{"
+usart1.c(5): error:  #247: function "GPIO_Config" has already been defined
+usart1.c(24): error:  #29: expected an expression
+usart1.c(163): warning:  #174-D: expression has no effect
+usart1.c(163): error:  #65: expected a ";"
+no source(163): error:  #101: "va_list" has already been declared in the current scope
+usart1.c(164): error:  #20: identifier "ap" is undefined
+Target not created
+Build target 'Target 1'
+compiling main.c...
+usart1.h(8): error:  #130: expected a "{"
+main.c(13): warning:  #12-D: parsing restarts here after previous syntax error
+main.c(14): warning:  #223-D: function "Timer_Init" declared implicitly
+main.c(15): warning:  #223-D: function "SysTick_Init" declared implicitly
+main.c(16): warning:  #223-D: function "USART1_Config" declared implicitly
+main.c(21): warning:  #223-D: function "Timer_ON" declared implicitly
+compiling usart1.c...
+usart1.h(8): error:  #130: expected a "{"
+usart1.c(5): error:  #247: function "GPIO_Config" has already been defined
+usart1.c(24): error:  #29: expected an expression
+usart1.c(163): warning:  #174-D: expression has no effect
+usart1.c(163): error:  #65: expected a ";"
+no source(163): error:  #101: "va_list" has already been declared in the current scope
+usart1.c(164): error:  #20: identifier "ap" is undefined
+Target not created
+Build target 'Target 1'
+compiling main.c...
+compiling usart1.c...
+usart1.c(24): error:  #29: expected an expression
+Target not created
+Build target 'Target 1'
+compiling usart1.c...
+linking...
+Program Size: Code=8264 RO-data=336 RW-data=48 ZI-data=1024  
+FromELF: creating hex file...
+"..\Output\hexapod_robot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=8264 RO-data=336 RW-data=48 ZI-data=1024  
+FromELF: creating hex file...
+"..\Output\hexapod_robot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling stm32f10x_it.c...
+stm32f10x_it.c(146): warning:  #223-D: function "Timer_OFF" declared implicitly
+stm32f10x_it.c(148): error:  #20: identifier "count1" is undefined
+stm32f10x_it.c(152): error:  #20: identifier "TIM_TimeBaseStructure" is undefined
+stm32f10x_it.c(152): error:  #20: identifier "PWM" is undefined
+Target not created
+Build target 'Target 1'
+compiling stm32f10x_it.c...
+stm32f10x_it.c(148): warning:  #223-D: function "Timer_OFF" declared implicitly
+stm32f10x_it.c(154): error:  #20: identifier "TIM_TimeBaseStructure" is undefined
+Target not created
+Build target 'Target 1'
+compiling stm32f10x_it.c...
+stm32f10x_it.c(155): error:  #20: identifier "TIM_TimeBaseStructure" is undefined
+Target not created
+Build target 'Target 1'
+compiling stm32f10x_it.c...
+stm32f10x_it.c(155): error:  #20: identifier "TIM_TimeBaseStructure" is undefined
+compiling timer_count.c...
+Target not created
+Build target 'Target 1'
+compiling stm32f10x_it.c...
+linking...
+Program Size: Code=8308 RO-data=336 RW-data=88 ZI-data=1024  
+FromELF: creating hex file...
+"..\Output\hexapod_robot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling stm32f10x_it.c...
+stm32f10x_it.c(159): error:  #20: identifier "MAXPWM" is undefined
+Target not created
+Build target 'Target 1'
+compiling stm32f10x_it.c...
+linking...
+Program Size: Code=8688 RO-data=336 RW-data=88 ZI-data=1024  
+FromELF: creating hex file...
+"..\Output\hexapod_robot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=8688 RO-data=336 RW-data=88 ZI-data=1024  
+FromELF: creating hex file...
+"..\Output\hexapod_robot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling stm32f10x_it.c...
+linking...
+Program Size: Code=8688 RO-data=336 RW-data=88 ZI-data=1024  
+FromELF: creating hex file...
+"..\Output\hexapod_robot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling stm32f10x_it.c...
+linking...
+Program Size: Code=8692 RO-data=336 RW-data=88 ZI-data=1024  
+FromELF: creating hex file...
+"..\Output\hexapod_robot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling timer_count.c...
+linking...
+Program Size: Code=8692 RO-data=336 RW-data=88 ZI-data=1024  
+FromELF: creating hex file...
+"..\Output\hexapod_robot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling stm32f10x_it.c...
+linking...
+Program Size: Code=8688 RO-data=336 RW-data=88 ZI-data=1024  
+FromELF: creating hex file...
+"..\Output\hexapod_robot.axf" - 0 Error(s), 0 Warning(s).

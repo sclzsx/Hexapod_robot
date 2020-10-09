@@ -1,0 +1,36 @@
+*** Creating Trace Output File '..\Output\hexapod_robot.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"..\output\main.o"'
+### List of Objects: adding '"..\output\usart1.o"'
+### List of Objects: adding '"..\output\systick.o"'
+### List of Objects: adding '"..\output\stm32f10x_it.o"'
+### List of Objects: adding '"..\output\timer_count.o"'
+### List of Objects: adding '"..\output\adc.o"'
+### List of Objects: adding '"..\output\gpio.o"'
+### List of Objects: adding '"..\output\ultrasonic.o"'
+### List of Objects: adding '"..\output\startup_stm32f10x_hd.o"'
+### List of Objects: adding '"..\output\stm32f10x_gpio.o"'
+### List of Objects: adding '"..\output\stm32f10x_rcc.o"'
+### List of Objects: adding '"..\output\stm32f10x_usart.o"'
+### List of Objects: adding '"..\output\misc.o"'
+### List of Objects: adding '"..\output\stm32f10x_tim.o"'
+### List of Objects: adding '"..\output\stm32f10x_adc.o"'
+### List of Objects: adding '"..\output\stm32f10x_dma.o"'
+### List of Objects: adding '"..\output\core_cm3.o"'
+### List of Objects: adding '"..\output\system_stm32f10x.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "..\output\main.o" "..\output\usart1.o" "..\output\systick.o" "..\output\stm32f10x_it.o" "..\output\timer_count.o" "..\output\adc.o" "..\output\gpio.o" "..\output\ultrasonic.o" "..\output\startup_stm32f10x_hd.o" "..\output\stm32f10x_gpio.o" "..\output\stm32f10x_rcc.o" "..\output\stm32f10x_usart.o" "..\output\misc.o" "..\output\stm32f10x_tim.o" "..\output\stm32f10x_adc.o" "..\output\stm32f10x_dma.o" "..\output\core_cm3.o" "..\output\system_stm32f10x.o" --library_type=microlib --strict --scatter "..\Output\hexapod_robot.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "..\Listing\hexapod_robot.map" -o "..\Output\hexapod_robot.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '..\Output\hexapod_robot.axf'
+### ADS-LD Command File: '..\Output\hexapod_robot.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '..\Output\hexapod_robot.lnp', Handle=0x000002DC
+### Writing '.lnp' file
+### ADS-LD Command file '..\Output\hexapod_robot.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
